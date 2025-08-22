@@ -1,0 +1,4 @@
+data_folder: raw_data
+output_file: data/news_dataset.csv
+log_level: INFO
+model_folder: models

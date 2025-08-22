@@ -1,13 +1,21 @@
-# Python
+# Python/Conda environments
+venv/
+.env/
+*.env
+*.conda
+*.egg-info/
 __pycache__/
 *.pyc
 
-# Virtual environment
-.venv/
+# Conda environment files
+*.yml
 
-# Data files
-data/*.csv
-raw_data/*.csv
+# Data and models
+data/
+models/
 
-# Models
-models/*.pkl
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
